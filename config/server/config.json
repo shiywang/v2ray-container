@@ -1,0 +1,35 @@
+{
+  "log": {
+    "access": "/proc/self/fd/1",
+    "error": "/proc/self/fd/2",
+    "loglevel": "info"
+  },
+  "inbounds": [
+    {
+      "port": 33389,
+      "listen":"0.0.0.0",
+      "protocol": "vmess",
+      "settings": {
+        "clients": [
+          {
+            "id": "4D06B39E-89DE-4615-9BA2-4DBD70968E66",
+            "level": 1,
+            "alterId": 64
+          }
+        ]
+      },
+      "streamSettings": {
+        "network": "ws",
+        "wsSettings": {
+        "path": "/r"
+        }
+      }
+    }
+  ],
+  "outbounds": [
+    {
+      "protocol": "freedom",
+      "settings": {}
+    }
+  ]
+}
