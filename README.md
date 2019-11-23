@@ -1,5 +1,5 @@
 
-# Containerized V2Ray on TLS + WebSocket
+# Containerized V2Ray over TLS + WebSocket
 
 ## Prerequisite
 
